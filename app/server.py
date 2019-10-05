@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1-SRFTxeYn6Z-kjfr9BFO0UQFI7MZKMbP?alt=media&key=AIzaSyD_KIRkgVk-YohOs6SmD84nfbl8MIFDwgo'
-export_file_name = 'stage-1.pth'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1JYQMd8miVKPKxkFJwNLSujpGCVHhmFFo?alt=media&key=AIzaSyD_KIRkgVk-YohOs6SmD84nfbl8MIFDwgo'
+export_file_name = 'stage-1.pkl'
 
 classes = ['brown_boletus', 'ginger', 'oc_boletus', 'chanterelle', 'porcini']
 path = Path(__file__).parent
