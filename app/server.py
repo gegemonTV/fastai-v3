@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1JYQMd8miVKPKxkFJwNLSujpGCVHhmFFo?alt=media&key=AIzaSyD_KIRkgVk-YohOs6SmD84nfbl8MIFDwgo'
-export_file_name = 'stage-1.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1VNlFqAhhE6qFiRuULIG69uDTsatElEJt?alt=media&key=AIzaSyDy93hy3mVbqTPPawc-MoTQZbkKKe37OZM'
+export_file_name = 'mushrooms-1.pkl'
 
-classes = ['brown_boletus', 'ginger', 'oc_boletus', 'chanterelle', 'porcini']
+classes = ['белый гриб','лисички','ложные лисички','мухомор','поганка','подберезовик','подосиновик']
 path = Path(__file__).parent
 
 app = Starlette()
